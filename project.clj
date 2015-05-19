@@ -6,6 +6,7 @@
   :plugins [[cider/cider-nrepl "0.8.1"]]
   :main sheet-helper.core
   :dependencies [
+                 [com.novemberain/monger "2.0.1"]
                  [org.clojure/data.json "0.2.6"]
                  [javax.servlet/servlet-api "2.5"]
                  [org.clojure/clojure "1.6.0"]
